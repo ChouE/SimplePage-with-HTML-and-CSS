@@ -1,0 +1,51 @@
+html {
+  font-family: sans-serif;
+}
+h1{
+  font-family: fantasy;
+  font-size: large;
+  padding: 10px;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(21, 3, 177);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(194, 12, 12);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(153, 165, 168);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(20, 119, 136);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(17, 163, 168);
+}
+
+p{
+  color: deepskyblue;
+  text-align: center;
+  font-size: large;
+
+}
+
+h1{
+  text-align: center;
+  color: rgb(151, 124, 15);
+}
+
+.video{
+  text-align:center;
+}
